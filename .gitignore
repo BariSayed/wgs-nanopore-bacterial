@@ -1,0 +1,62 @@
+# Sequencing data & large intermediates (regenerate by running the workflow)
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sam
+*.bam
+*.bam.bai
+*.bai
+*.cram
+*.sra
+*.bcf
+
+# Assemblies, graphs & indices
+*.fasta
+*.fa
+*.fna
+*.fna.gz
+*.fai
+*.fastg
+*.gfa
+*.bt2
+contigs.fasta
+assembly_graph.fastg
+*spades_output/
+flye/
+flyehq_*/
+rotated/
+
+# Reference / annotation downloads
+*.gff
+*.gff.gz
+*.gbk
+ncbi_dataset*/
+
+# Variant & QC outputs
+*.vcf
+*.vcf.gz
+*.tbi
+*.sketch
+sketches/
+fastqc_results/
+fastqc_output/
+*_fastqc.html
+*_fastqc.zip
+multiqc_data/
+multiqc_report.html
+dataset/
+manta*_run/
+
+# Tool archives / builds
+*.tar.gz
+*.tar.bz2
+*.zip
+build/
+snpEff/
+Anaconda3-*.sh
+
+# Misc
+.DS_Store
+__pycache__/
+*.log
